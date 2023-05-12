@@ -8,7 +8,3 @@
 df = spark.range(1000)
 
 df.count()
-
-# COMMAND ----------
-
-
