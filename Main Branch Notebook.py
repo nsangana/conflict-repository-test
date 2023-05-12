@@ -7,8 +7,4 @@
 
 df = spark.range(1000)
 
-df.count()
-
-# COMMAND ----------
-
-
+print(f"Count is: {df.count()}")
