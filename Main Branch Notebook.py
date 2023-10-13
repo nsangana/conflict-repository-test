@@ -7,7 +7,6 @@
 
 df = spark.range(1000)
 
-<<<<<<< HEAD
 df.count()
 
 # COMMAND ----------
@@ -22,6 +21,10 @@ dbutils.notebook.entry_point.getDbutils().notebook().getContext().notebookPath()
 # COMMAND ----------
 
 
-=======
+
 print(f"Count is: {df.count()}")
->>>>>>> origin/main
+
+
+# COMMAND ----------
+
+
