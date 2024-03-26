@@ -9,4 +9,4 @@ spark.sparkContext.getConf().getAll()
 
 # COMMAND ----------
 
-
+print("hello")
