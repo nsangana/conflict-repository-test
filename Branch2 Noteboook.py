@@ -10,3 +10,7 @@ spark.sparkContext.getConf().getAll()
 # COMMAND ----------
 
 print("hello")
+
+# COMMAND ----------
+
+dbutils.notebook.entry_point.getDbutils().notebook().getContext().notebookPath().get()
