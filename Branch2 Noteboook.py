@@ -14,3 +14,9 @@ print("hello")
 # COMMAND ----------
 
 dbutils.notebook.entry_point.getDbutils().notebook().getContext().notebookPath().get()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC
+# MAGIC Hello
