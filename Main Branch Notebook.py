@@ -14,3 +14,7 @@ print(f"Count is: {df.count()}")
 # COMMAND ----------
 
 assert True
+
+# COMMAND ----------
+
+test
